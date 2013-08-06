@@ -1,5 +1,5 @@
 {
-    "name": "bigfoot/seo-bundle",
+    "name": "darkspawn/seo-bundle",
     "type": "symfony-bundle",
     "description": "Bigfoot seo bundle",
     "keywords": [],
@@ -13,6 +13,9 @@
     "require": {
         "bigfoot/core-bundle": "dev-master"
     },
+    "replace": {
+        "bigfoot/seo-bundle": "dev-master"
+    }
     "autoload": {
         "psr-0": { "Bigfoot\\Bundle\\SeoBundle": "" }
     },
