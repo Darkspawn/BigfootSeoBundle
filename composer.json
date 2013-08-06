@@ -15,7 +15,7 @@
     },
     "replace": {
         "bigfoot/seo-bundle": "dev-master"
-    }
+    },
     "autoload": {
         "psr-0": { "Bigfoot\\Bundle\\SeoBundle": "" }
     },
